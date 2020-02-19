@@ -2,7 +2,7 @@ gcircularqueue is Circular Queue in Golang
 
 ### Install 
 
-`go get github.com/Focinfi/gcircularqueue`
+`go get github.com/vadimipatov/gcircularqueue`
 
 ### Usage
 
@@ -40,3 +40,8 @@ This package is a typical circular with interfaces as following:
   element := queue.Shift()
   // note: `element will be nil when shifting from a empty queue
   ```
+
+### TODO
+* Update this README
+* Add methods Len and Elements to the threadsafe implementation
+* Update tests
